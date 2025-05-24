@@ -3,9 +3,9 @@ import Button from './components/Button'
 function App() {
 
   return (
-    <div>
-      <Button />
-    </div>
+    <main className="min-h-screen flex justify-center items-center">
+      <Button backgroundColor="red"/>
+    </main>
   )
 }
 
